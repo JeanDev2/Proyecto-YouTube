@@ -1,0 +1,18 @@
+.main .titulo {
+    margin:1.25rem;
+}
+
+.main .grid-videos {
+    display: grid;
+    gap:40px 20px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.main .grid-videos .video {
+    inline-size: 100%;
+    display: block;
+}
+
+.main .grid-videos .video img{
+    inline-size: 100%;
+}

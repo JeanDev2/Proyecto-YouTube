@@ -1,0 +1,23 @@
+@import './layout.css';
+@import './header.css';
+@import './menu-lateral.css';
+@import './menu-lateral.css';
+@import './main.css';
+@import './media-queries.css';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+

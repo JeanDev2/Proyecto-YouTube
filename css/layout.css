@@ -1,0 +1,40 @@
+.contenedor {
+    inline-size: 100%;
+    min-block-size: 100vh;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: minmax(90px, 90px) auto;
+    grid-template-rows: 60px auto;
+    grid-template-areas: "header header" "menu contenido";
+    transition: all .3s ease;
+}
+
+.contenedor.active {
+    grid-template-columns: minmax(300px, 18%) auto;
+}
+
+/* PARTES DE LA WEB */
+
+.header {
+    grid-area: header;
+    padding-block: 0 ;
+    padding-inline:20px;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    grid-template-areas: "logo busqueda iconos";
+}
+
+.menu-lateral {
+    grid-area: menu;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.main {
+    grid-area: contenido;
+    background-color: #F9F9F9;
+    padding: 2.5rem;
+}

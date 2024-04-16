@@ -1,0 +1,33 @@
+/* ---------- MENU LATERAL --------------- */
+
+.menu-lateral a {
+    display: block;
+    padding: 15px 35px;
+    color: #000;
+    min-inline-size: 800px;
+}
+
+.menu-lateral a:hover {
+    background-color: #E5E5E5;
+}
+
+.menu-lateral a.active {
+    background-color: #E5E5E5;
+    font-weight: bold;
+}
+
+.menu-lateral .fa-solid{
+    color: #606060;
+    margin-right: 32px;
+    width: 20px;
+    text-align: center;
+}
+
+.menu-lateral a.active .fa-solid{
+    color: #ff0000;
+}
+
+.menu-lateral hr {
+    margin: 20px 0;
+    border: 1px solid #DFDFDF;
+}
